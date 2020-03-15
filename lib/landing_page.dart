@@ -111,23 +111,7 @@ class LandingPage extends StatelessWidget{
               );
             },
           ),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.menu),
-              title: Text('Trang chủ')
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.play_arrow),
-                title: Text('Video')
-            ),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.person),
-                title: Text('Cá nhân')
-            )
-          ],
-        ),
+        )
       ),
     );
   }
